@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.wordshighlighter.WordsHighlighter" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Native Words Highlighter</name>
+    <description>My widget description</description>
+    <icon>
+    iVBORw0KGgoAAAANSUhEUgAAACkAAAAlCAMAAADofDC/AAAAOVBMVEX19fX358f9uz344rj7xVv52Jn+rQ719fX/qAD19fX9ti36znr43aj28Ob+sR7504n269b8wEz7ymtavJW7AAAACHRSTlNA////////EMziaTYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAD2SURBVDiNjdTtkgQRDAXQobW9Ppreff+H3TIYQejJH5U4pUSpvH5eX4dh456KvPQSwV1fSIUU9nqUGQJBPMgKAS22ssGeTpLCjo6yh5QOcoSE9nKGjXaSgx9KJQ8rJXIFAdvLNQQilTsITeQWUim2EKpJt5eiSZk+2RKepPeQUq83sEoAhzHHBhaZSL3EAhYZgZBWv4ZFKkC+U7uERUrAvdPLrmCRGvClIBQPi8ytV6s5mGVq3bea42CWsZ8YFwez/EOjt3eSg1nmLXtG1Z5+hFnO7x1ag1TevbK/jrTXyc/H0NKd3XybzgyAVPEYRit3z+cwxvwDo3cvdBJV/+cAAAAASUVORK5CYII=
+    </icon>
+    <properties>
+    <propertyGroup caption="General">
+     <propertyGroup caption="Data source">
+            <property key="searchwordskey" type="attribute">
+                <caption>Search Words</caption>
+                <description>Search words</description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="textToHighlightkey" type="attribute">
+                <caption>Text to Highlight</caption>
+                <description>Text to be highlighted when matched with the search words</description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="highlightStyleBackgroundColorKey" type="attribute" required="false">
+                <caption>Background Color</caption>
+                <description>Background color for the Text to be highlighted eg. Red or red or #4542f5.Default background color is Yellow
+                </description>
+                 <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="autoescapekey" type="boolean" defaultValue="true">
+                <caption>Auto Escape</caption>
+                <description>Escape characters in search Words</description>
+            </property>
+    </propertyGroup>       
+     
+    </propertyGroup>
+    </properties>
+</widget>
