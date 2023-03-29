@@ -32,6 +32,8 @@ Add the Words Highlighter widget and configure the Search Words and Highlight wo
 
 https://github.com/bharathidas/Native-Words-Highilighter/issues
 
+## Screenshots
+
 ![Screenshot_1](https://user-images.githubusercontent.com/23263603/228516581-1a829f7d-2286-4b9c-942e-f5998f09dd47.png)
 
 ![Screenshot_2](https://user-images.githubusercontent.com/23263603/228516614-8da1e0cc-b901-4f2e-80fc-2dcff42fd5cb.png)
